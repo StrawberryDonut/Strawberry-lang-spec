@@ -85,7 +85,24 @@ Operators
 ```
 
 ## arithmetic assignment operators
-
+```
+<identifier> '+=' <int>|<float>|<string>|<bool>|<list>|<dic>
+```
+```
+<identifier> '-=' <int>|<float>|<string>|<list>|<dic>
+```
+```
+<identifier> '*=' <int>|<float>|<bool>
+```
+```
+<identifier> '/=' <int>|<float>|<string>
+```
+```
+<identifier> '%=' <int>|<float>
+```
+```
+<identifier> '**=' <int>|<float>
+```
 
 ## bitwise assignment operators
 ```
