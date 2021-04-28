@@ -1,8 +1,8 @@
 # Operators
 
-<a href="README.md">Home</a> |
-<a href="Statements.md">Statements</a> |
-<span>Operators</span>
+[Home](README.md) |
+[Statements](Statements.md) |
+Operators
 
 ## arithmetic operators
 ```

@@ -1,8 +1,8 @@
 # Statements
 
-<a href="README.md">Home</a> |
-<span>Statements</span> |
-<a href="Operators.md">Operators</a>
+[Home](README.md) |
+Statements |
+[Operators](Operators.md)
 
 ## if
 ```

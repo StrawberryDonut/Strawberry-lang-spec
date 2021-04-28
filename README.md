@@ -1,8 +1,8 @@
 # StrawberryLang
 
-<span>Home</span> |
-<a href="Statements.md">Statements</a> |
-<a href="Operators.md">Operators</a>
+Home |
+[Statements](Statements.md) |
+[Operators](Operators.md)
 
 ## Keywords
 |      |      |      |        |        |
