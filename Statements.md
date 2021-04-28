@@ -35,7 +35,8 @@ Statements |
 
 ## try catch
 ```
-
+'try' '{' <statement>* '}'
+('catch' | 'finally') '{' <statement>* '}'
 ```
 
 ## function
