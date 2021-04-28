@@ -22,10 +22,15 @@ Description of Strawberry Language
 |Arithmetic Assignment|a += b   |a -= b |a *= b|a /= b |a %= b |a **= b|
 |Bitwise Assignment   |a &= b   |a \|= b|a ^= b|       |       |       |
 |Shift Assignment     |a >>= b  |a <<= b|      |       |       |       |
-|Increment & Decrement|a++      |a--    |      |       |       |       |
+|Increment & Decrement|a++      |a--    |++a   |--a    |       |       |
 |Conditional          |a ? b : c|       |      |       |       |       |
 
 ## Types
 |        |        |        |        |        |        |        |
 |--------|--------|--------|--------|--------|--------|--------|
 |int     |float   |bool    |string  |list    |dic     |function|
+
+```ebnf
+comment:
+    "//" 
+```
