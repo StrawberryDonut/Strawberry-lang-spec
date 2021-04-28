@@ -1,13 +1,13 @@
 # Operators
 
-<p align="center">
-    <a href="README.md">Home</a> |
-    <a href="Statements.md">Statements</a> |
-    <span>Operators</span>
-</p>
+<a href="README.md">Home</a> |
+<a href="Statements.md">Statements</a> |
+<span>Operators</span>
 
 ## arithmetic operators
-
+```
+<int>|<float>|<bool>|<list>|<dic> '+' <int>|<float>|<bool>|<list>|<dic>
+```
 
 ## comparison operators
 

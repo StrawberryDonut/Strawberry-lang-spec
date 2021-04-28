@@ -1,10 +1,8 @@
 # Statements
 
-<p align="center">
-    <a href="README.md">Home</a> |
-    <span>Statements</span> |
-    <a href="Operators.md">Operators</a>
-</p>
+<a href="README.md">Home</a> |
+<span>Statements</span> |
+<a href="Operators.md">Operators</a>
 
 ## if
 ```

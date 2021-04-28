@@ -1,11 +1,8 @@
 # StrawberryLang
-Description of Strawberry Language
 
-<p align="center">
-    <span>Home</span> |
-    <a href="Statements.md">Statements</a> |
-    <a href="Operators.md">Operators</a>
-</p>
+<span>Home</span> |
+<a href="Statements.md">Statements</a> |
+<a href="Operators.md">Operators</a>
 
 ## Keywords
 |      |      |      |        |        |
