@@ -1,9 +1,5 @@
 # Statements
 
-[Home](README.md) |
-Statements |
-[Operators](Operators.md)
-
 ## if
 ```
  'if'        '(' <bool> ')' '{' <statement>* '}'

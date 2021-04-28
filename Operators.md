@@ -1,9 +1,5 @@
 # Operators
 
-[Home](README.md) |
-[Statements](Statements.md) |
-Operators
-
 ## arithmetic operators
 ```
 <int>|<float>|<string>|<bool>|<list>|<dic> '+' <int>|<float>|<string>|<bool>|<list>|<dic>
