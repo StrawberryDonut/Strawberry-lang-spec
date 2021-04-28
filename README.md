@@ -77,8 +77,8 @@ Description of Strawberry Language
 
 ### comment
 ```
-'//' CHAR* END_OF_LINE
+'//' .* END_OF_LINE
 ```
 ```
-'/*' CHAR* '*/'
+'/*' .* '*/'
 ```
