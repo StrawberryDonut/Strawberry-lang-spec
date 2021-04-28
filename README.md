@@ -1,5 +1,4 @@
 # StrawberryLang
-Description of Strawberry Language
 
 <p align="center">
     <span>Home</span> |
