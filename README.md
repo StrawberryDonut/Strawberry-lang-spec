@@ -7,8 +7,7 @@ Description of Strawberry Language
 |break |case  |catch |continue|default |
 |else  |event |false |finally |for     |
 |func  |if    |in    |null    |readonly|
-|repeat|return|switch|true    |try     |
-|while |      |      |        |        |
+|return|switch|true  |try     |while   |
 
 ## Operators
 |                     |         |       |      |       |       |       |
