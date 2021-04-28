@@ -29,8 +29,3 @@ Description of Strawberry Language
 |        |        |        |        |        |        |        |
 |--------|--------|--------|--------|--------|--------|--------|
 |int     |float   |bool    |string  |list    |dic     |function|
-
-```ebnf
-comment:
-    "//" 
-```
