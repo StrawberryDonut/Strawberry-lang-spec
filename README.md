@@ -52,3 +52,5 @@ File extension of Strawberry language is `.berry`
         - [list functions](Functions.md#list-functions)
         - [dictionary functions](Functions.md#dictionary-functions)
     - [Story Functions](Functions.md#Story-Functions)
+        - [default story functions](Functions.md#default-story-functions)
+        - [data functions](Functions.md#data-functions)

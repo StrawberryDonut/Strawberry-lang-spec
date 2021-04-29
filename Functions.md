@@ -81,6 +81,13 @@ Return random value between `x` and `y`. `x` is inclusive and `y` is exclusive.
 random(1, 3.14) // 2.1
 ```
 
+### choice()
+`random(<list>) -> <any>`   
+Return a random element in the list.
+```js
+random(1, 3.14) // 2.1
+```
+
 ### range()
 `range(<int> start?, <int> end, <int> step?) -> <list>`   
 Return a list of numbers starts from `start` (`0` for default) to `end` (exclusive)
@@ -293,3 +300,57 @@ Return a new list that all elements changed by `selector`. THe function must hav
 ```
 
 # Story Functions
+
+## default story functions
+
+### img()
+`story.img(<string> url) -> <null>`   
+Set image of the message.
+
+### addField()
+`story.addField(<string> name, <string> value, <bool> inline = false) -> <null>`   
+Add embed field to the message.
+
+### addReaction()
+`story.addReaction(<string> name) -> <null>`   
+Add built-in emojis of Discord to the message.
+
+`story.addReaction(<int> id) -> <null>`   
+Add custom server emoji to the message.
+
+### setContent()
+`story.setContent(<string> content) -> <null>`   
+Set content of the message.
+
+### input()
+`story.input(<string> text = "입력 대기중...", <function> event) -> <null>`   
+Get user input.
+```go
+func onInputReceived(msg) {
+    
+}
+
+story.input("Enter a message...", onInputReceived)
+```
+
+### randomUser()
+`story.randomUser() -> <dic>`   
+Get a random user in current Discord server.
+
+## data functions
+
+### set()
+`story.set(<string> key, <any> value) -> <null>`   
+Save a value in the server.
+
+### get()
+`story.get(<string key>) -> <any>`   
+Load a value from the server.
+
+### exist()
+`story.exist(<string> key) -> <bool>`   
+Check if the key exists.
+
+### delete()
+`story.delete(<string> key) -> <any>`
+Remove a value from the server.
