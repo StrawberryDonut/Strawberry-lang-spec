@@ -21,6 +21,7 @@
 |Shift Assignment     |a >>= b  |a <<= b|      |       |       |       |
 |Increment & Decrement|a++      |a--    |++a   |--a    |       |       |
 |Conditional          |a ? b : c|       |      |       |       |       |
+|Lambda               |(a) => b |       |      |       |       |       |
 
 ## Types
 |        |        |        |        |        |        |        |
