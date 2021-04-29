@@ -28,7 +28,7 @@ Integer type of value store an integer number. There is no limit so you can stor
 With int, you can use following arithmetic operators: `+`, `-`, `*`, `/`, `%`, `**`
 
 ## float
-Float type can store real numbers is much same as the int type except that float can store numbers below the decimal points.   
+Float type can store real numbers and it is similar to the int type except that float can store numbers below the decimal points.   
 You can use following arithmetic operators: `+`, `-`, `*`, `/`, `%`, `**`
 
 ## bool
