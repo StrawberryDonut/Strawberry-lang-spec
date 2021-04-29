@@ -116,7 +116,7 @@ You can read the string functions [here](FUnctions.md#string-functions)
 
 ## dic
 Dictionary type has pairs of keys and values. The key must be a string type. You can access to a member with `[]` or `.`
-```
+```js
 a = {'first': 1, 'second': 'hello', 'third': false}
 
 a['first'] // 1
