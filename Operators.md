@@ -2,13 +2,13 @@
 
 ## arithmetic operators
 ```
-<int>|<float>|<string>|<bool>|<list>|<dic> '+' <int>|<float>|<string>|<bool>|<list>|<dic>
+<int>|<float>|<string>|<list>|<dic> '+' <int>|<float>|<string>|<list>|<dic>
 ```
 ```
 <int>|<float>|<string>|<list>|<dic> '-' <int>|<float>|<string>|<list>|<dic>
 ```
 ```
-<int>|<float>|<string>|<bool>|<list>|<dic> '*' <int>|<float>|<bool>
+<int>|<float>|<string>|<list>|<dic> '*' <int>|<float>
 ```
 ```
 <int>|<float>|<string>|<list> '/' <int>|<float>|<string>
