@@ -6,8 +6,6 @@
 |func  |if    |in    |null    |readonly|
 |return|switch|true  |try     |while   |
 
----
-
 ## Operators
 |                     |         |       |      |       |       |       |
 |---------------------|---------|-------|------|-------|-------|-------|
@@ -24,8 +22,6 @@
 |Increment & Decrement|a++      |a--    |++a   |--a    |       |       |
 |Conditional          |a ? b : c|       |      |       |       |       |
 |Lambda               |(a) => b |       |      |       |       |       |
-
----
 
 ## Types
 |        |        |        |        |        |        |        |
