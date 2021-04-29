@@ -133,6 +133,85 @@ Get current UTC time with following format:
 
 ## string functions
 
+### replace()
+`<string>.repalce(<string> old, <string> new) -> <string>`   
+Change all `old` strings into `new` string.
+```js
+'Hello, world!'.repalce('o', 'asdf') // 'Hellasdf, wasdfrld!'
+```
+
+---
+
+### indexOf()
+`<string>.indexOf(<string> value) -> <int>`  
+Return an index of `value`.
+```js
+'Hello, world!'.indexOf('ll') // 2
+
+'Wa, sans!'.indexOf('papyrus') // -1
+```
+
+---
+
+### toUpper()
+`<string>.toUpper() -> <string>`   
+Makes a string to upper case.
+
+---
+
+### toLower()
+`<string>.toLower() -> <string>`   
+Makes a string to lower case.
+
+---
+
+### isUpper()
+`<string>.isUpper() -> <bool>`   
+Check if a string is upper case.
+
+---
+
+### isLower()
+`<string>.isLower() -> <bool>`   
+Check if a string is lower case.
+
+---
+
+### startsWith()
+`<string>.startsWith(<string> value) -> <bool>`   
+Check if a string starts with `value`.
+
+---
+
+### endsWith()
+`<string>.endsWith(<string> value) -> <bool>`   
+Check if a string ends with `value`.
+
+---
+
+### trim()
+`<string>.trim() -> <string>`   
+Remove whitespace from the start and end of a string.
+
+---
+
+### trimLeft()
+`<string>.trimLeft() -> <string>`   
+Remove whitespace from the start of a string.
+
+---
+
+### trimRight()
+`<string>.trimRight() -> <string>`   
+Remove whitespace from the end of a string.
+
+---
+
+## length()
+`<string>.length() -> <int>`   
+Return the length of string.
+
+---
 
 ## list functions
 
