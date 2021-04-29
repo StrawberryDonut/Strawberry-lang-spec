@@ -8,17 +8,17 @@ a = 10
 this code makes a variable named `a` that stores an int type value 10.   
 You can assign to assigned variable again and also can assign a different type of value.
 ```js
-b = 1
-b = 2
+a = 1
+a = 2
 
-b = "hello"
+a = "hello"
 ```
 
 And you can also delete a variable using the keyword `del`.
 ```py
-c = 3.14
+a = 3.14
 
-del c
+del a
 ```
 
 # Types
@@ -33,7 +33,7 @@ You can use following arithmetic operators: `+`, `-`, `*`, `/`, `%`, `**`
 
 ## bool
 Boolean type can store only two values: `true` and `false`.   
-You can use the logical operators with bool type.
+You can use the [logical operators](Operators.md#logical-operators) with bool type.
 
 ## list
 You can store different types of multiple values in a list.
@@ -46,11 +46,11 @@ Some operators are available for the list type.
 - `<list> '-' <list>`: Removes all elements of the second in the first.
 - `<list> '*' <int> `: Multiplies the list.
     ```js
-    [1, 2, 3] * 3 == [1, 2, 3, 1, 2, 3, 1, 2, 3]
+    [1, 2, 3] * 3 // [1, 2, 3, 1, 2, 3, 1, 2, 3]
     ```
 - `<list> '/' <any> `: Splits the list.
     ```js
-    [1, 2, 3, 4, 5] / 3 == [[1, 2], [4, 5]]
+    [1, 2, 3, 4, 5] / 3 // [[1, 2], [4, 5]]
     ```
 
 With following codes, you can get an element by the index.
@@ -91,6 +91,7 @@ String type value stores texts.
 a = "Hello, world!"
 b = 'wa sans'
 ```
+You can use escape sequences: `\n`, `\t`, `\b`, `\r`
 
 You can use operators similar to the list.
 - `<string> '+' <string>`: Combine two strings.
@@ -103,19 +104,19 @@ You can use operators similar to the list.
 
 String values are basically considered as a list of strings, so you can get a string of a single letter with `[]` or can get a string with slicing.
 ```js
-s = 'Hello, world!'
+a = 'Hello, world!'
 
-s[3] // 'l'
+a[3] // 'l'
 
-s[-5] // 'o'
+a[-5] // 'o'
 
-s[2:5] // 'llo'
+a[2:5] // 'llo'
 ```
 
 You can read the string functions [here](FUnctions.md#string-functions)
 
 ## dic
-Dictionary type has pairs of keys and values. The key must be a string type. You can access to a member with `[]` or `.`
+Dictionary type has pairs of keys and values. The keys must be a string type. You can access to a member with `[]` or `.`
 ```js
 a = {'first': 1, 'second': 'hello', 'third': false}
 
@@ -124,7 +125,7 @@ a['first'] // 1
 a.second // hello
 ```
 
-You can use `+` and `-` operators and it works as same as with the list.
+You can use `+` and `-` operators which work the same as with the list.
 
 You can read the dictionary functions [here](FUnctions.md#dictionary-functions)
 
@@ -136,7 +137,7 @@ func a() {
 
 }
 ```
-this code makes a function type variable `a`.   
+this code makes a function-type variable `a`.   
 With following codes, you can make the Anonymous function with a lambda expression.
 ```js
 a = () => {
