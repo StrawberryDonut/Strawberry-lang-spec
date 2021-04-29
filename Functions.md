@@ -84,9 +84,6 @@ random(1, 3.14) // 2.1
 ### choice()
 `random(<list>) -> <any>`   
 Return a random element in the list.
-```js
-random(1, 3.14) // 2.1
-```
 
 ### range()
 `range(<int> start?, <int> end, <int> step?) -> <list>`   
