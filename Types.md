@@ -75,13 +75,58 @@ a[:4] // [1, 2, 3, 4]
 a[:] // [1, 2, 3, 4, 5]
 ```
 
+These are grammars for the codes above.
+```
+<list> '[' <int> ']'
+```
+```
+<list> '[' <int>? ':' <int>? ']'
+```
+
 You can also read the list functions [here](Functions.md#list-functions)
 
 ## string
-' " list
+String type value stores texts.
+```js
+a = "Hello, world!"
+b = 'wa sans'
+```
+
+You can use operators similar to the list.
+- `<string> '+' <string>`: Combine two strings.
+- `<string> '-' <string>`: Removes all second strings in the first.
+- `<string> '*' <int>   `: Multiplies the string.
+- `<string> '/' <string>`: Split the string.
+    ```js
+    'hello, world!' / ', ' // ['hello', 'world!']
+    ```
+
+String values are basically considered as a list of strings, so you can get a string of a single letter with `[]` or can get a string with slicing.
+```js
+s = 'Hello, world!'
+
+s[3] // 'l'
+
+s[-5] // 'o'
+
+s[2:5] // 'llo'
+```
+
+You can read the string functions [here](FUnctions.md#string-functions)
 
 ## dic
+Dictionary type has pairs of keys and values. The key must be a string type. You can access to a member with `[]` or `.`
+```
+a = {'first': 1, 'second': 'hello', 'third': false}
 
+a['first'] // 1
+
+a.second // hello
+```
+
+You can use `+` and `-` operators and it works as same as with the list.
+
+You can read the dictionary functions [here](FUnctions.md#dictionary-functions)
 
 ## function
 Functions are also considered as a type.

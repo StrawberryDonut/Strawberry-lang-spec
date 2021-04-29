@@ -8,7 +8,7 @@
 <int>|<float>|<string>|<list>|<dic> '-' <int>|<float>|<string>|<list>|<dic>
 ```
 ```
-<int>|<float>|<string>|<list>|<dic> '*' <int>|<float>
+<int>|<float>|<string>|<list> '*' <int>|<float>
 ```
 ```
 <int>|<float>|<string>|<list> '/' <int>|<float>|<string>
