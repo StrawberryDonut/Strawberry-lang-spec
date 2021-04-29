@@ -93,7 +93,9 @@ range(0, 20, 2) // [0, 2, 4, 8, 10, 12, 14, 16, 18]
 ### time()
 `time() -> <dic>`   
 Get current UTC time with following format:  
-`{'timestamp': n, 'year': yyyy, 'month': MM, 'day': dd, 'hour': HH, 'minute': mm, 'second': ss}`
+```
+{'timestamp': n, 'year': yyyy, 'month': MM, 'day': dd, 'hour': HH, 'minute': mm, 'second': ss}
+```
 
 ### numberToUnicode()
 `numberToUnicode(<int> code) -> <string>`
