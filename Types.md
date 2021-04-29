@@ -120,7 +120,7 @@ a[-5] // 'o'
 a[2:5] // 'llo'
 ```
 
-You can read the string functions [here](FUnctions.md#string-functions)
+You can read the string functions [here](Functions.md#string-functions)
 
 ## dic
 Dictionary type has pairs of keys and values. The keys must be a string type. You can access to a member with `[]` or `.`
@@ -134,7 +134,7 @@ a.second // hello
 
 You can use `+` and `-` operators which work the same as with the list.
 
-You can read the dictionary functions [here](FUnctions.md#dictionary-functions)
+You can read the dictionary functions [here](Functions.md#dictionary-functions)
 
 ## function
 Functions are also considered as a type.
