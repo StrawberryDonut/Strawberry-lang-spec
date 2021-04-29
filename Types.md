@@ -137,7 +137,7 @@ func a() {
 }
 ```
 this code makes a function type variable `a`.   
-With the following codes, you can make the Anonymous function with a lambda expression.
+With following codes, you can make the Anonymous function with a lambda expression.
 ```js
 a = () => {
 
