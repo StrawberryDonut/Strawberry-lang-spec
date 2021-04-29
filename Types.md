@@ -14,6 +14,13 @@ a = 2
 a = "hello"
 ```
 
+You can declare a variable as read-only by writing the keyword `readonly` in front of the name of the variable.
+```cs
+readonly a = 1
+
+a = 2 // ERRrOR!
+```
+
 And you can also delete a variable using the keyword `del`.
 ```py
 a = 3.14
@@ -91,7 +98,7 @@ String type value stores texts.
 a = "Hello, world!"
 b = 'wa sans'
 ```
-You can use escape sequences: `\n`, `\t`, `\b`, `\r`
+You can use escape sequences: `\n`, `\t`, `\b`, `\r`. And you can use string format with `{}`.
 
 You can use operators similar to the list.
 - `<string> '+' <string>`: Combine two strings.
