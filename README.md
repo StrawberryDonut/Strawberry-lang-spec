@@ -12,5 +12,5 @@ File extension of Strawberry language is `.berry`
 - [Charts of keywords, operators, types](Charts.md)
 - [Statements grammar definition](Statements.md)
 - [Operators grammar definition](Operators.md)
-- [Grammar definition of Type Usage](Types.md)
+- [Usage of types and variables](Types.md)
 - [Description of default functions](Functions.md)
