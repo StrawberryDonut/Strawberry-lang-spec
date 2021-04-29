@@ -82,7 +82,7 @@ random(1, 3.14) // 2.1
 ```
 
 ### choice()
-`random(<list>) -> <any>`   
+`choice(<list>) -> <any>`   
 Return a random element in the list.
 
 ### range()
