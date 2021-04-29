@@ -15,7 +15,7 @@ b = "hello"
 ```
 
 And you can also delete a variable using the keyword `del`.
-```js
+```py
 c = 3.14
 
 del c
