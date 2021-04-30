@@ -334,6 +334,15 @@ story.input("Enter a message...", onInputReceived)
 `story.randomUser() -> <dic>`   
 Get a random user in current Discord server.
 
+### addListener()
+`story.addListener(<string> name, <function> event) -> <null>`   
+When the event `name` called, a function `event` executed.
+```js
+story.addListener('emojiClicked', (emoji) => {
+    story.setContent('Emoji {emoji} clicked!')
+})
+```
+
 ## data functions
 
 ### set()
