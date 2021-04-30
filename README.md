@@ -5,7 +5,7 @@
 A Document of Specification of StrawBerry language.   
 
 The Strawberry Language is an interpreted language and a scripting language.
-It is lightweight, fast, easy to extend, learn quickly, and well fit and safe for your projects.
+It is lightweight, fast, easy to extend, can learn quickly, and well fit and safe for your projects.
 
 Grammar is written as EBNF-like format.   
 File extension of Strawberry language is `.berry`
