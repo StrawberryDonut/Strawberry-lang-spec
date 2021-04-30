@@ -12,6 +12,7 @@ File extension of Strawberry language is `.berry`
 
 ## Table of Contents
 
+- [Basic Grammar](#Basic-Grammar)
 - [Charts of keywords, operators, types](Charts.md)
     - [Keywords](Charts.md#Keywords)
     - [Operators](Charts.md#Operators)
@@ -58,3 +59,5 @@ File extension of Strawberry language is `.berry`
     - [Story Functions](Functions.md#Story-Functions)
         - [default story functions](Functions.md#default-story-functions)
         - [data functions](Functions.md#data-functions)
+
+## Basic Grammar

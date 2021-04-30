@@ -120,6 +120,14 @@ a[-5] // 'o'
 a[2:5] // 'llo'
 ```
 
+With `{}`, you can use string format.
+```js
+a = 1
+b = true
+
+s = 'a is {a}. b is {b}'
+```
+
 You can read the string functions [here](Functions.md#string-functions)
 
 ## dic
