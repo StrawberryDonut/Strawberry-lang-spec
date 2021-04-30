@@ -61,3 +61,5 @@ File extension of Strawberry language is `.berry`
         - [data functions](Functions.md#data-functions)
 
 ## Basic Grammar
+
+Strawberry language ignores whitespace and line-breaking. Using a semicolon, you can end the line manually and can write multiple codes in one line. But you don't have to use the semicolon.
