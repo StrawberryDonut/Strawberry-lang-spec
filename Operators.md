@@ -82,13 +82,13 @@
 
 ## arithmetic assignment operators
 ```
-<identifier> '+=' <int>|<float>|<string>|<bool>|<list>|<dic>
+<identifier> '+=' <int>|<float>|<string>|<list>|<dic>
 ```
 ```
 <identifier> '-=' <int>|<float>|<string>|<list>|<dic>
 ```
 ```
-<identifier> '*=' <int>|<float>|<bool>
+<identifier> '*=' <int>|<float>
 ```
 ```
 <identifier> '/=' <int>|<float>|<string>
