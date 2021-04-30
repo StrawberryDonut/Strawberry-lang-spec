@@ -125,7 +125,7 @@ With `{}`, you can use string format.
 a = 1
 b = true
 
-s = 'a is {a}. b is {b}'
+c = 'a is {a}. b is {b}' // 'a is 1. b is true'
 ```
 
 You can read the string functions [here](Functions.md#string-functions)
