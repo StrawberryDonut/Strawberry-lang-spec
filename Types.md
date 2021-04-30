@@ -1,6 +1,6 @@
 # Variables
 
-Variables of Strawberry language is a dynamic type variable so the type of a variable can be changed.
+Variables of Strawberry language is a dynamic type variable so the type of a variable can be changed. All types of variables are deep copied when it is copied.
 
 ```js
 a = 10
