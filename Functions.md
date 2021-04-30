@@ -76,18 +76,18 @@ type(() => {}) // function
 
 ### random()
 `random(<int|float> x?, <int|float> y) -> <int|float>`   
-Return random value between `x` and `y`. `x` is inclusive and `y` is exclusive.
+Returns random value between `x` and `y`. `x` is inclusive and `y` is exclusive.
 ```js
 random(1, 3.14) // 2.1
 ```
 
 ### choice()
 `choice(<list>) -> <any>`   
-Return a random element in the list.
+Returns a random element in the list.
 
 ### range()
 `range(<int> start?, <int> end, <int> step?) -> <list>`   
-Return a list of numbers starts from `start` (`0` for default) to `end` (exclusive)
+Returns a list of numbers starts from `start` (`0` for default) to `end` (exclusive)
 ```js
 range(10) // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
@@ -109,6 +109,61 @@ Get current UTC time with following format:
 
 ## math functions
 
+### PI
+`math.PI -> <float>`   
+Returns pi.
+
+### abs()
+`math.abs(<int|float> num) -> <int|float>`   
+Returns the absolute value of `num`.
+
+### min()
+`math.min(<list> value) -> <any>`   
+Returns the smallest value of the list `value`.
+
+### max()
+`math.max(<list> value) -> <any>`   
+Returns the largest value of the list `value`.
+
+### floor()
+`math.floor(<float> num) -> <int>`   
+Returns the largest integer less than or equal to `num`.
+
+### ceil()
+`math.ceil(<float> num) -> <int>`   
+Returns the smallest integer greater than or equal to `num`.
+
+### round()
+`math.round(<float> num) -> <int>`   
+Returns the value of the number `num` rounded to the nearest integer.
+
+### pow()
+`math.pow(<int|float> x, <int|float> y) -> <int|float>`   
+
+### sqrt()
+`math.sqrt(<int|float> num) -> <int|float>`   
+
+### sin()
+`math.sin(<int|float> num) -> <float>`   
+
+### cos()
+`math.cos(<int|float> num) -> <float>`   
+
+### tan()
+`math.tan(<int|float> num) -> <float>`   
+
+### asin()
+`math.asin(<int|float> num) -> <float>`   
+
+### acos()
+`math.acos(<int|float> num) -> <float>`   
+
+### atan()
+`math.atan(<int|float> num) -> <float>`   
+
+### atan2()
+`math.atan(<int|float> x, <int|float> y) -> <float>`   
+
 # Member Functions
 
 ## string functions
@@ -122,7 +177,7 @@ Change all `old` strings into `new` string.
 
 ### indexOf()
 `<string>.indexOf(<string> value) -> <int>`  
-Return an index of `value`.
+Returns an index of `value`.
 ```js
 'Hello, world!'.indexOf('ll') // 2
 
@@ -167,7 +222,7 @@ Remove whitespace from the end of a string.
 
 ### length()
 `<string>.length() -> <int>`   
-Return the length of string.
+Returns the length of string.
 
 ## list functions
 
@@ -182,7 +237,7 @@ Joins the list with `separator`.
 
 ### indexOf()
 `<list>.indexOf(<any> element) -> <int>`  
-Return an index of `element`.
+Returns an index of `element`.
 ```js
 [1, 2, 3].indexOf(2) // 1
 
@@ -191,14 +246,14 @@ Return an index of `element`.
 
 ### reverse()
 `<list>.reverse() -> <list>`   
-Return a reversed list.
+Returns a reversed list.
 ```js
 [1, 2, 3].reverse() // [3, 2, 1]
 ```
 
 ### sort()
 `<list>.sort() -> <list>`   
-Return a sorted list.
+Returns a sorted list.
 ```js
 [2, 3, 1].sort() // [1, 2, 3]
 ```
@@ -232,7 +287,7 @@ a.remove(1) // [1, 3]
 
 ### length()
 `<list>.length() -> <int>`   
-Return the length of list.
+Returns the length of list.
 
 ### get()
 `<list>.get(<function> condition) -> <list>`   
@@ -249,7 +304,7 @@ a.get((i) => i % 3 == 0) // [3, 6, 9]
 
 ### set()
 `<list>.set(<function> selector) -> <list>`   
-Return a new list that all elements changed by `selector`. The function must have only one argument.
+Returns a new list that all elements changed by `selector`. The function must have only one argument.
 ```go
 a = [1, 2, 3, 4, 5]
 func b(i) {
@@ -264,11 +319,11 @@ a.set((i) => i * 3) // [3, 6, 9, 12, 15]
 
 ### keys()
 `<dic>.keys() -> <list>`   
-Return a list that contains all key.
+Returns a list that contains all key.
 
 ### values()
 `<dic>.values() -> <list>`   
-Return a list of all values.
+Returns a list of all values.
 
 ### has()
 `<dic>.has(<string> key) -> <bool>`   
@@ -280,7 +335,7 @@ Remove a value with `key` and return the dictionary.
 
 ### length()
 `<dic>.length() -> <int>`   
-Return the length of a dictionary.
+Returns the length of a dictionary.
 
 ### get()
 `<dic>.get(<function> condition) -> <list>`   
@@ -291,7 +346,7 @@ Find all elemts that function `condition` return `true`. The function must have 
 
 ### set()
 `<dic>.set(<function> selector) -> <dic>`   
-Return a new list that all elements changed by `selector`. THe function must have two argument (key, value).
+Returns a new list that all elements changed by `selector`. THe function must have two argument (key, value).
 ```js
 {'a': 1, 'b': 2, 'c': 3}.set((k, v) => {k * 2, v * 2}) // [{'aa': 2, 'bb': 4, 'cc': 6}]
 ```
