@@ -40,7 +40,7 @@ You can use following arithmetic operators: `+`, `-`, `*`, `/`, `%`, `**`
 
 ## bool
 Boolean type can store only two values: `true` and `false`.   
-You can use the [logical operators](Operators.md#logical-operators) with bool type.
+You can use the [logical operators](Operators.md#logical-operators) with bool type. Also, in all operators, a boolean value can be used as a integer value.
 
 ## list
 You can store different types of multiple values in a list.
