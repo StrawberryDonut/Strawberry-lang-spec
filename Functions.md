@@ -355,10 +355,6 @@ Returns a new list that all elements changed by `selector`. THe function must ha
 
 ## default story functions
 
-### img()
-`story.img(<string> url) -> <null>`   
-Set image of the message.
-
 ### addField()
 `story.addField(<string> name, <string> value, <bool> inline = false) -> <null>`   
 Add embed field to the message.
@@ -373,6 +369,10 @@ Add custom server emoji to the message.
 ### setContent()
 `story.setContent(<string> content) -> <null>`   
 Set content of the message.
+
+### setImg()
+`story.setImg(<string> url) -> <null>`   
+Set image of the message.
 
 ### input()
 `story.input(<string> text = "입력 대기중...", <function> event) -> <null>`   
